@@ -1,0 +1,1 @@
+All scripts from http://www.blog.pythonlibrary.org/2018/06/05/creating-pdfs-with-pyfpdf-and-python/
