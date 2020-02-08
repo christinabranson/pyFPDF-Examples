@@ -1,5 +1,5 @@
-# 3_test_substitution_with_image.py
-# runs a basic html file from template
+# 4_test_substitution_with_arguments.py
+# python3 4_test_substitution_with_arguments.py --title "Title From Arguments"
 
 import os
 from fpdf import FPDF, HTMLMixin
@@ -37,4 +37,4 @@ with open(htmlpath, 'r') as file:
     pdf = HTML2PDF()
     pdf.add_page()
     pdf.write_html(html)
-    pdf.output('pdfs/3_test_substitution_with_arguments.pdf')
+    pdf.output('pdfs/4_test_substitution_with_arguments.pdf')
