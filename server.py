@@ -8,6 +8,7 @@ from weasyprint import HTML, CSS
 import base64
 
 def validate_json(json_data):
+    print(f"> Validating JSON...")
     # make sure that the required field is set
     required_fields = [
         "template",
