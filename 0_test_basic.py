@@ -4,7 +4,6 @@
 import os
 from fpdf import FPDF, HTMLMixin
 
-
 class HTML2PDF(FPDF, HTMLMixin):
     pass
 

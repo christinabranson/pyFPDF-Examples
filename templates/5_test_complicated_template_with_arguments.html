@@ -1,0 +1,40 @@
+<html lang="en">
+   <head>
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+   </head>
+   <body>
+      <main role="main" class="container">
+         <div class="row justify-content-between mb-2">
+            <div class="col">
+               <div class="card">
+                  <div class="card-header">
+                     How To
+                  </div>
+                  <div class="card-body">
+                     <p class="card-text">Run With: <br/>
+                        <code>python3 5_test_complicated_template_with_arguments.py <br/>
+                        --title "Test Title" <br/>
+                        --subtitle "Test subtitle" <br/>
+                        --text "Lorem ipsum...." <br/>
+                        --outputpath "pdfs/test-output-path.pdf"
+                        </code>
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="row justify-content-between">
+            <div class="col">
+               <div class="card">
+                  <div class="card-header">
+                     {% title %}
+                  </div>
+                  <div class="card-body">
+                     <h6 class="card-subtitle mb-2 text-muted">{% subtitle %}</h6>
+                     <p class="card-text">{% text %}</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </main>
+</html>
