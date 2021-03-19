@@ -23,7 +23,7 @@ daphne==2.3.0
 defusedxml==0.6.0
 Django==2.2
 django-channels==0.7.0
-djangorestframework==3.9.4
+djangorestframework==3.11.2
 hiredis==1.0.0
 html5lib==1.0.1
 hyperlink==19.0.0
